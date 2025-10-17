@@ -1,0 +1,14 @@
+bottleneck
+brotlicffi
+exceptiongroup
+imblearn
+importlib-metadata
+ipykernel
+jaraco.collections
+kagglehub
+numexpr
+pickleshare
+pip-chill
+pysocks
+seaborn
+tomli
