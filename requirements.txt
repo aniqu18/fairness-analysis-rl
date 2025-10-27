@@ -13,3 +13,5 @@ pysocks
 seaborn
 tomli
 torch
+contextualbandits
+statsmodels
