@@ -12,3 +12,4 @@ pip-chill
 pysocks
 seaborn
 tomli
+torch
