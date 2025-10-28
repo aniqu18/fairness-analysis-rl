@@ -12,3 +12,6 @@ pip-chill
 pysocks
 seaborn
 tomli
+torch
+contextualbandits
+statsmodels
