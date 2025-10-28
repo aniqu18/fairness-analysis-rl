@@ -1,0 +1,50 @@
+[
+  {
+    "comparison": "<40 vs 40-50",
+    "accuracy_1": "0.666667",
+    "accuracy_2": "0.611111",
+    "z_stat": "0.398527",
+    "p_value": "0.69024198",
+    "significant": false
+  },
+  {
+    "comparison": "<40 vs 50-60",
+    "accuracy_1": "0.666667",
+    "accuracy_2": "0.437500",
+    "z_stat": "1.758376",
+    "p_value": "0.07868358",
+    "significant": false
+  },
+  {
+    "comparison": "<40 vs 60+",
+    "accuracy_1": "0.666667",
+    "accuracy_2": "0.260000",
+    "z_stat": "3.068386",
+    "p_value": "0.00215218",
+    "significant": true
+  },
+  {
+    "comparison": "40-50 vs 50-60",
+    "accuracy_1": "0.611111",
+    "accuracy_2": "0.437500",
+    "z_stat": "1.730371",
+    "p_value": "0.08356395",
+    "significant": false
+  },
+  {
+    "comparison": "40-50 vs 60+",
+    "accuracy_1": "0.611111",
+    "accuracy_2": "0.260000",
+    "z_stat": "3.269723",
+    "p_value": "0.00107653",
+    "significant": true
+  },
+  {
+    "comparison": "50-60 vs 60+",
+    "accuracy_1": "0.437500",
+    "accuracy_2": "0.260000",
+    "z_stat": "2.040199",
+    "p_value": "0.04133053",
+    "significant": true
+  }
+]
