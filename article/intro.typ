@@ -1,17 +1,17 @@
 = Introduction
-Reinforcement Learning is an area of Machine Learning that allows systems to make decision by interaction with environment and trough rewards or penalties. Unlike traditional supervised learning, reinforcement learning can adapt over time which makes it particularly useful in dynamic and real-world applications. Reinforcement learning is becoming increasingly more used within human-centered areas such as healthcare, education and social services, where actions directly impact people’s lives. 
+Reinforcement Learning is an area of Machine Learning that allows systems to make decision by interaction with environment and trough rewards or penalties. Unlike traditional supervised learning, reinforcement learning can adapt over time which makes it particularly useful in dynamic and real-world applications @sutton_reinforcement_1998. Reinforcement learning is becoming increasingly more used within human-centered areas such as healthcare, education and social services, where actions directly impact people’s lives @abdellatif_reinforcement_2023. 
 
 // mention what RL is @niko
 The models used in reinforcement learning learn themselves which action is the proper one based on the set of rewards and punishments received from the previous decisions. // Badidi and Oh
 This way after the set of trials and errors they are able to understand rules governing the environment they operate in. This enables the possibility to learn for example what treatment decisions should be made in healthcare based on the huge datasets. //Badidi 2023
 One example of such a models are contextual bandits, which are a powerful tool for modeling sequential decision-making, or Deep Q-Network (DQN), being a convolutional neural network // Oh for CB, add reference for DQN for example based on https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning 
 
-Even though reinforcement learning can be powerful for decision-making, it also raises important ethical concerns.
+Even though reinforcement learning can be powerful for decision-making, it also raises important ethical concerns @neufeld_enforcing_2022.
 // TODO It can be from datasets or from algorithms themselve and it would be nice to mention it @niko
 // for example: 
 // At the broadest level, bias can be divided into two categories: dataset bias, caused by data that is not representative, and algorithmic bias, caused by poor design or improper implementation of algorithms (Badidi, 2023; Rahman et al., 2024).
-Human-centered dataset often contains biases or underrepresentation, and the reinforcement learning models can unintentionally learn these and output results that are unfair or discriminating. 
-While there is a lot of research about bias and fairness, less is known about how reinforcement learning models handles these concerns, given their complexity, structure and reward system. To ensure both effective and ethical reinforcement learning models in practice, it’s crucial to understand their nature and how their decisions can affect real-world contexts. 
+Human-centered dataset often contains biases or underrepresentation, and the reinforcement learning models can unintentionally learn these and output results that are unfair or discriminating @yang_algorithmic_2023. 
+While there is a lot of research about bias and fairness, less is known about how reinforcement learning models handles these concerns, given their complexity, structure and reward system @jui_fairness_2024. To ensure both effective and ethical reinforcement learning models in practice, it’s crucial to understand their nature and how their decisions can affect real-world contexts. 
 
 // mention previous works @niko
 Efforts where made by researches in order to explore the fairness in reinforcement learning models. 

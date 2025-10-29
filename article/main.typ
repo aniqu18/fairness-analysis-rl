@@ -18,3 +18,7 @@
 #include "results.typ"
 
 #include "conclusion.typ"
+
+#pagebreak()
+
+#bibliography("bibliography.bib", style: "apa")
