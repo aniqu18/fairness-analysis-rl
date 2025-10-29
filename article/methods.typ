@@ -1,6 +1,6 @@
 = Methods
 This study deployed DQN and contextual bandits on the UCI Heart Disease-dataset // provide source of the dataset @niko
-to compare their predictive performance, bias and fairness between different patient groups @huang_scoping_2024. Both models can learn from sequential experiences, but they differ in how they balance exploration and exploitation and their approaches for policy optimization. The purpose of using the same dataset is to evaluate not only the overall predictive accuracy but also models perform with different categories and groups, particularly focusing on the sex-related differences. // age-related too @niko
+to compare their predictive performance, bias and fairness between different patient groups @huang_scoping_2024@janosi_uci_nodate. Both models can learn from sequential experiences, but they differ in how they balance exploration and exploitation and their approaches for policy optimization. The purpose of using the same dataset is to evaluate not only the overall predictive accuracy but also models perform with different categories and groups, particularly focusing on the sex-related differences. // age-related too @niko
 This comparative method gives insight into the trade-offs between model complexity, predictive power, and fairness. 
 
 == Study Design
