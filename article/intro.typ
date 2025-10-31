@@ -1,32 +1,25 @@
 = Introduction
-Reinforcement Learning is an area of Machine Learning that allows systems to make decision by interaction with environment and trough rewards or penalties. Unlike traditional supervised learning, reinforcement learning can adapt over time which makes it particularly useful in dynamic and real-world applications @sutton_reinforcement_1998. Reinforcement learning is becoming increasingly more used within human-centered areas such as healthcare, education and social services, where actions directly impact people’s lives @abdellatif_reinforcement_2023. 
+Reinforcement learning (RL) is an area of Machine Learning that allows systems to make decision by interaction with environment. Unlike traditional supervised learning, reinforcement learning can adapt over time which makes it particularly useful in dynamic and real-world applications @sutton_reinforcement_1998. 
+Reinforcement learning is becoming increasingly more used within human-centered areas such as healthcare, education and social services, where actions directly impact people’s lives @abdellatif_reinforcement_2023. 
 
-// mention what RL is @niko
-The models used in reinforcement learning learn themselves which action is the proper one based on the set of rewards and punishments received from the previous decisions. @badidi_edge_2023@oh_reinforcement_2022
-This way after the set of trials and errors they are able to understand rules governing the environment they operate in. This enables the possibility to learn for example what treatment decisions should be made in healthcare based on the huge datasets. @badidi_edge_2023
-One example of such a models are contextual bandits, which are a powerful tool for modeling sequential decision-making, or Deep Q-Network (DQN), being a convolutional neural network @oh_reinforcement_2022 //for example based on https://en.wikipedia.org/wiki/Q-learning#Deep_Q-learning 
+// mentions what RL is 
+Models used in RL learn themselves which action is the proper one based on the set of rewards and punishments received from the previous decisions. @badidi_edge_2023@oh_reinforcement_2022
+In this way, after a series of trials-and-errors, the agents learn the rules of the environment they operate in. This allows them to determine, for example, appropriate treatment decisions in healthcare @badidi_edge_2023.
+One example of such a models are contextual bandits or Deep Q-Network (DQN) @oh_reinforcement_2022.
 
-Even though reinforcement learning can be powerful for decision-making, it also raises important ethical concerns @neufeld_enforcing_2022.
-// TODO It can be from datasets or from algorithms themselve and it would be nice to mention it @niko
-// for example: 
-// At the broadest level, bias can be divided into two categories: dataset bias, caused by data that is not representative, and algorithmic bias, caused by poor design or improper implementation of algorithms (Badidi, 2023; Rahman et al., 2024).
-Human-centered dataset often contains biases or underrepresentation, and the reinforcement learning models can unintentionally learn these and output results that are unfair or discriminating @yang_algorithmic_2023. 
-While there is a lot of research about bias and fairness, less is known about how reinforcement learning models handles these concerns, given their complexity, structure and reward system @jui_fairness_2024. To ensure both effective and ethical reinforcement learning models in practice, it’s crucial to understand their nature and how their decisions can affect real-world contexts. 
+Even though RL can be powerful for decision-making, it also raises important ethical concerns @neufeld_enforcing_2022.
+Human-centered datasets often contain biases or underrepresentation, and the RL models can unintentionally learn these and output results that are unfair or discriminating @yang_algorithmic_2023. 
+While many research papers are dedicated to subjects of bias and fairness in general, less is known about how RL models handle these concerns, given their complexity, structure and reward system @jui_fairness_2024. To ensure both effective and ethical RL in practice, it is crucial to understand their nature and how their decisions can affect real-world contexts. 
 
-// mention previous works @niko
-Efforts where made by researches in order to explore the fairness in reinforcement learning models. 
-Such a trials related to developing and improving models are especially important because progressive algorithms tends to deal with bias better than traditional techniques @rahman_data_2024.
+// mentions previous works
+Efforts have been made by researches in order to explore the fairness in RL models. 
+Such a trials related to developing and improving models are especially important because progressive algorithms tend to deal with bias better than traditional techniques @rahman_data_2024.
 For example, researchers #cite(<yang_algorithmic_2023>, form:"prose")
-created a double-deep Q-network containing debiasing component in order to deal with a.o. ethnical bias in clinical studies, while still presenting decent model performance.
-In a recent study #cite(<xu_contextual_2025>, form:"prose") 
-developed contextual bandits algorithm called TS-Conf that utilizes Thompson Sampling to mitigate bias being a result of herding effect. 
+created a double-deep Q-network containing debiasing component in order to deal with, a.o., ethnical bias in clinical studies, while still presenting decent model performance.
+In other recent study #cite(<xu_contextual_2025>, form:"prose") 
+developed contextual bandits algorithm called TS-Conf that utilizes Thompson Sampling to mitigate bias resulting from herding effect. 
 
-// how bias can be mitigated @niko
-Bias mitigation requires usually primarily using data of good quality and performing evaluations of the model while being oriented on privacy @badidi_edge_2023.
-It is also possible to utilize data augmentation techniques, carefully studying features and their impact on the model, performing sub-group analysis and using data sampling. Beyond that applying ensemble methods or simply choosing data that is representative enough can also support model designers when dealing with bias @badidi_edge_2023@smith_bias_2023.
-
-// what is this about @niko
-In this study we aim to investigate fairness and bias in reinforcement learning models applied on human-oriented dataset. // maybe health oriented?
-For this purpose we trained contextual bandits and Deep Q-Network (DQN) on UCI Heart Disease Dataset. This way we simulated reinforcement learning based decision process of classifying presence of heart disease and its severity. 
-
-The sub-group analysis was performed by analyzing accuracy, recall and F1 metric across different genders and age groups. The results can provide insights about how different models perform on the same dataset in case of fairness and bias and provide information about fairness challenges that RL can face on health datasets.
+// what is the study about 
+This study aims to investigate fairness and bias in reinforcement learning models applied to predictions on UCI Heart Disease Dataset.
+For this purpose contextual bandits and DQN models are trained to emulate reinforcement-learning-style decision-making for predicting the presence and severity of heart disease.
+Then, the sub-group analysis is performed by analyzing accuracy, recall and F1 metric across different genders and age groups. The results can provide insights about how fairly different models perform on the same dataset and present the challenges that RL can face.
