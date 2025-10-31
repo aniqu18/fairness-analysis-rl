@@ -1,0 +1,18 @@
+{
+    "accuracy": {
+        "Male": 0.3618,
+        "Female": 0.8438
+    },
+    "recall": {
+        "Male": 0.2,
+        "Female": 0.3333
+    },
+    "f1": {
+        "Male": 0.1063,
+        "Female": 0.3051
+    },
+    "n_samples": {
+        "Male": 152.0,
+        "Female": 32.0
+    }
+}
