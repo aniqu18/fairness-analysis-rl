@@ -1,12 +1,12 @@
 #import "template.typ": *
 
 #show: project.with(
-  title: "Evaluating Fairness in Deep Q-Network and Contextual Bandits on UCI Heart Disease Dataset",
+  title: "Evaluating Fairness in Deep Q-Network and Contextual Bandits on the UCI Heart Disease Dataset",
   authors: (
     (name: "Ella Forss", email: "elfo3556@student.su.se"),
     (name: "Nikodem Kaczmarek", email: "nika5442@student.su.se"),
   ),
-  date: "October 30, 2025",
+  date: "November 1, 2025",
 )
 
 #include "intro.typ"
